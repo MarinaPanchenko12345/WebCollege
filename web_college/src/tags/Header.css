@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: #62b53f;
+  text-shadow: 0 0 15px #06962880, 0 0 10px #078a2e80, 13px -40px 0px #ce593700;
+  font-family: "Satisfy", cursive;
+  color: #f5f5f5;
+}
+.header_date {
+  margin-left: auto;
+  font-size: 1.7rem;
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.header_name {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 15px 0px 15px 50px;
+  font-size: 2.5rem;
+}
+@media (max-width: 706px) {
+  .header_date {
+    font-size: 1.2rem;
+  }
+  .header_name {
+    font-size: 1.7rem;
+  }
+}
+@media (max-width: 459px) {
+  .header_date {
+    font-size: 1rem;
+  }
+  .header_name {
+    font-size: 1.2rem;
+  }
+}

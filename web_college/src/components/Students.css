@@ -1,0 +1,95 @@
+table {
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  background-color: white;
+  margin-bottom: 20px;
+  color: var(--color-text);
+}
+th,
+td {
+  text-align: center;
+  padding: 12px;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+button.btn {
+  border: 1px solid #000;
+  background-color: var(--bg);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+}
+button.btn:hover {
+  filter: brightness(1.2);
+  transform: scale(1.1);
+}
+.min {
+  font-weight: bold;
+  color: red;
+}
+.max {
+  font-weight: bold;
+  color: blue;
+}
+.edit,
+.remove {
+  border: none;
+  background: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.1s;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px grey;
+}
+.edit:hover,
+.remove:hover {
+  scale: 1.6;
+}
+.grade {
+  width: 40px;
+  font-size: 18px;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #607d8b;
+  padding: 4px;
+  text-align: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.pagination-container .MuiPagination-root {
+  background: transparent;
+  width: max-content;
+  margin: 10px 0px;
+}
+@media (max-width: 910px) {
+  .pagination-container .MuiPagination-root {
+    position: relative;
+  }
+}
+@media (max-width:690px) {
+  table {
+  width: 100%;
+}
+  th,
+td {
+  padding: 10px;
+  font-size: 0.8rem;
+}
+}
+@media (max-width:565px) {
+  th,
+td {
+  padding: 8px 2px;
+  font-size: 0.7rem;
+}
+}

@@ -11,7 +11,7 @@ Follow these steps to set up and run the project:
 ### Clone the Repository
 
 1. Open a terminal and navigate to the desired directory.
-2. Clone the repository: https://github.com/MarinaPanchenko12345/business-cards.git
+2. Clone the repository: https://github.com/MarinaPanchenko12345/WebCollege
 
 ### Database Setup (MySQL / phpMyAdmin)
 
